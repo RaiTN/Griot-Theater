@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'myfont';
+    src: url(Roboto/Roboto-Regular.ttf);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'myfont';
+}
+
+.navBar {
+    z-index: 1;
+    margin: 0px;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+}
+
+.navContain {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.navList {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+    width: 75%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.navItem {
+    margin: 0px 30px;
+    white-space: nowrap;
+}
+
+.navTitle {
+    color: white;
+    width: 25%;
+    margin: 20px;
+    text-align: center;
+}
+
+.main {
+    margin: 0px;
+}
+
+.main-title {
+    position: relative;
+    margin: 0px;
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    margin: 0px;
+    border: 1px solid black;
+}
+
+.main-title-text {
+    z-index: 0;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5vh;
+    font-size:  5vw;
+}
+
+.main-body {
+    margin: 50px;
+}
+
+.mb-wrap {
+    margin: 5px 150px;
+}
+
+.mb-title {
+    border: 1px solid lightgray;
+    background-color: rgb(245, 245, 245);
+}
+
+.mb-title-text {
+    margin: 2px 25px;
+    font-size: 16pt;
+}
+
+.mb-body {
+    margin: 10px;
+}
+
+.mb-text {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.show {
+    display: flex;
+    max-width: 15%;
+    max-height:  15%;
+}
+
+.mb-subtext {
+    line-height: 40px;
+    font-size: 20px;
+    width: 60%;
+}
+
+.mb-subtext-body {
+    margin: 5px;
+    font-size: 15px;
+}
+
+.mb-button {
+    width: 20%;
+}
+
+.mb-button-text {
+    color: gray;
+    padding: 20px;
+    background-color: gold;
+    border: 2px solid lightgray;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    float: right;
+}
+
+.foot-border {
+    margin: 0px;
+    background-color: black;
+}
+
+.foot-wrap {
+    padding: 50px;
+}
+
+.foot-container {
+    padding: 50px;
+}
+
+.foot-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.map {
+    max-width: 30%;
+    max-height: 30%;
+    width: 35%;
+}
+
+.foot-title {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 45px;
+    width: 25%;
+    margin: 0px;
+    text-align: center;
+}
+
+.foot-title-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    font-size: 14pt;
+}
+.ftb-content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.map-icon {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.email-icon {
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+}
+
+.phone-icon {
+    padding-left: 5px;
+    padding-right: 5px;
+}
